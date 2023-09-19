@@ -1,25 +1,26 @@
 *{
-  border: 3px,rgb(34, 34, 34);
+background-color: rgb(5, 5, 49);
+color: beige;
 }
 header{
   background-image: url('ia.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;
-  opacity: 80%;
+  opacity: 70%;
   height: 500px;
   width: 1300px; 
   left: 0px;
   text-align: center;
 
 }
-header.h1{
-
-  color: rgb(117, 117, 21);
+header h1{
+  color: rgb(202, 202, 62);
   text-align: center;}
-header.h3{
+header h3{
   text-align: center;
-  color: rgb(119, 47, 13);
+  border: 1px,rgb(5, 5, 49);
+  color: rgb(223, 114, 63);
 }
 img {
  height: 15%;
@@ -35,8 +36,8 @@ width: 3000px;
     right: 0;
     width: 30px;
     height: 30px;
-    background-color: rgba(226, 141, 43, 0.685);
+    background-color: rgb(221, 156, 81);
     cursor: pointer;
-    
+    color: black;
    display: none;
   } 
