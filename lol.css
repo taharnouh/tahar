@@ -1,15 +1,42 @@
-h1{
-    text-align: center;
+*{
+  border: 3px,rgb(34, 34, 34);
 }
-h3{
-    text-align: center;
+header{
+  background-image: url('ia.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  opacity: 80%;
+  height: 500px;
+  width: 1300px; 
+  left: 0px;
+  text-align: center;
+
+}
+header.h1{
+
+  color: rgb(117, 117, 21);
+  text-align: center;}
+header.h3{
+  text-align: center;
+  color: rgb(119, 47, 13);
 }
 img {
  height: 15%;
  width: 15%;
  
 }
-  div {
-height: 3000px;
+  div {    
 width: 3000px;
 }
+  button {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(226, 141, 43, 0.685);
+    cursor: pointer;
+    
+   display: none;
+  } 
