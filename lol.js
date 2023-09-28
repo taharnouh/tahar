@@ -1,36 +1,37 @@
 // window.onload = (function () {
-let bt = document.getElementById('bt');
-var h = document.getElementById('h');
-let a = document.getElementById("am");
-var c = document.getElementById('c');
-var j = document.getElementById('j');
-var img = document.getElementById('im');
-document.getElementById("demo").innerHTML = "my proprtys";
-a.onmouseenter= function () {
- img.src=a.src;   
-}
-h.onmouseenter=function () {
-    img.src=h.src;   
-   }
-c.onmouseenter= function () {
-    img.src=c.src;   
-   }
-j.onmouseenter=function () {
-    img.src=j.src;   
-   }
-  bt.onclick = function() {
+    let bt = document.getElementById('bt');
+    var h = document.getElementById('h');
+    let a = document.getElementById("am");
+    var c = document.getElementById('c');
+    var j = document.getElementById('j');
+    var img = document.getElementById('im');
+    document.getElementById("demo").innerHTML = "my proprtys";
+    a.onmouseenter= function () {
+     img.src=a.src;   
+    }
+    h.onmouseenter=function () {
+        img.src=h.src;   
+       }
+    c.onmouseenter= function () {
+        img.src=c.src;   
+       }
+    j.onmouseenter=function () {
+        img.src=j.src;   
+       }
+      bt.onclick = function() {
+        
+        scroll({
+        top:0,
+        left:0,
+        behavior:"smooth",
+      })}
+       onscroll=function(){
+        if (scrollY>=200) {
+            bt.style.display= "block"
+        }
+        else{
+            bt.style.display= "none"  
+        }
+       }
+    // })
     
-    scroll({
-    top:0,
-    left:0,
-    behavior:"smooth",
-  })}
-   onscroll=function(){
-    if (scrollY>=146) {
-        bt.style.display= "block"
-    }
-    else{
-        bt.style.display= "none"  
-    }
-   }
-// })
