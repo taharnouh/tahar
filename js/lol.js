@@ -1,4 +1,4 @@
-// window.onload = (function () {
+ window.onload = (function () {
     let bt = document.getElementById('bt');
     var h = document.getElementById('h');
     let a = document.getElementById("am");
@@ -33,5 +33,6 @@
             bt.style.display= "none"  
         }
        }
-    // })
+     })
+    
     
