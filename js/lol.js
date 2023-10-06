@@ -5,7 +5,7 @@
     var c = document.getElementById('c');
     var j = document.getElementById('j');
     var img = document.getElementById('im');
-    document.getElementById("demo").innerHTML = "my proprtys";
+    document.getElementById("competances").innerHTML = "My competances";
     a.onmouseenter= function () {
      img.src=a.src;   
     }
