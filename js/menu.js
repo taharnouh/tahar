@@ -1,7 +1,8 @@
-window.onload = function (){
+
+
     let menutxt = document.getElementById("menutxt");
     let clbtn = document.getElementById("cl");
-    let op = document.getElementById("op");  
+    let op = document.getElementById("op");
     function d() {
         clbtn.classList.add("hide")
         menutxt.classList.add("hide")
@@ -17,5 +18,4 @@ window.onload = function (){
         menutxt.classList.remove("hide");
         clbtn.classList.remove("hide");
       };
-        
-};
+  

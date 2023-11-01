@@ -1,10 +1,11 @@
 window.onload = function () {
+  console.log('lol') ;
   let bt = document.getElementById("bt");
   var h = document.getElementById("h");
   let a = document.getElementById("am");
   var c = document.getElementById("c");
   var j = document.getElementById("j");
-  var img = document.getElementById("im");
+  var img = document.getElementById("im"); 
   document.getElementById("competances").innerHTML = "My competances";
   a.onmouseenter = function () {
     img.src = a.src;
