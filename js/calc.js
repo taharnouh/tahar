@@ -6,14 +6,10 @@
     let sd = document.getElementById("sd");
     let res = document.getElementById("last"); 
     plus.onclick=function(){
-        res.value=( Number(st.value)+Number(sd.value)) ;  
-    
-    }
+        res.value=( Number(st.value)+Number(sd.value)) ;    }
     min.onclick=function(){
         res.value=( Number(st.value)-Number(sd.value)) ;    }
      mult.onclick=function(){
         res.value=( Number(st.value)*Number(sd.value)) ;    }
     divid.onclick=function(){
         res.value=( Number(st.value)/Number(sd.value)) ;    }
-        
-

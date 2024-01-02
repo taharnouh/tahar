@@ -156,3 +156,19 @@ font-size: large;
 text-align:center;
 z-index: 999;
 }
+#table button{
+text-align: center;
+height: 30%;
+width: 50%;
+color: #587f99;
+border: 2px #cbe493 solid;
+}
+#table{
+  padding: 0 15%;
+  }
+  #table td{
+    padding-left: 9%;
+    }  
+#Result input{
+  border: 1px #cbe493 solid;
+}
