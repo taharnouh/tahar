@@ -143,26 +143,41 @@ z-index: 999;
   position: fixed;
   border-radius: 5px;
   opacity: 100;
-background-color: #0a1153;
+background-color: #171e58;
 text-decoration: none;
 text-emphasis-color: #78c530;
 height: 1000px;
 width: 200px;
 left: 1%;
 color:#060929;
-border: 5px #4252db solid;
+border: 5px #424880 solid;
 cursor: pointer;
 font-size: large;
 text-align:center;
 z-index: 999;
 }
 #table button{
+  cursor: pointer;
 text-align: center;
-height: 30%;
-width: 50%;
-color: #587f99;
-border: 2px #cbe493 solid;
+height: auto;
+width: auto;
+border: 3px #fdff92 solid;
 }
+#num:hover{
+background-color:#191f61;
+}
+#equle:hover{
+  background-color:#191f61;
+  }
+#opre:hover{
+  background-color:#191f61;
+  }
+  #dle:hover{
+    background-color:#191f61;
+    }
+    #clr:hover{
+      background-color:#191f61;
+      }
 #table{
   padding: 0 15%;
   }
@@ -170,5 +185,73 @@ border: 2px #cbe493 solid;
     padding-left: 9%;
     }  
 #Result input{
-  border: 1px #cbe493 solid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: minmax(auto auto);
+
+  background-color: rgb(0, 0, 0,0.5);
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 1%;
+  word-wrap: break-word;
+  word-break: break-all;
+  color: #d1df85;
+}
+#num{
+  color: #81defa;
+}
+#opre{
+  color: #477017;
+}
+#dle{
+  color: #aa0000;
+}
+#clr{
+  color: #ff0000;
+}
+#equle{
+  color: #91ff00;
+}
+#bold{
+  height: 30%;
+width: 50%;
+color: #4252db;
+}
+
+.choose{
+  font-size: x-large;
+  font-weight: bolder;
+  height: 40%;
+  width: 10%;
+  margin:6.5%;
+  padding : 3.5% 1%;
+  margin-left: 15%;
+  color: #011530;
+  background-color: #7fa7fd;
+  display: inline;
+}
+.Guess{
+  font-size: x-large;
+  font-weight: bolder;
+  margin-left:45%;
+  color:#7fa7fd ;
+  background-color: #001f47;
+  display: inline;
+  padding : 2% 5%;
+}
+.rando{
+  font-size: x-large;
+  font-weight: bolder;
+  height: 40%;
+  width: 10%;
+  margin:3%;
+  padding : 3.5% 0.5%;
+  margin-left: 46%;
+  color: #011530;
+  background-color: #7fa7fd;
+  display: inline;
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
 }
