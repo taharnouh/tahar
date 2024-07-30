@@ -94,6 +94,10 @@ function win(){
         setTimeout( function() {location.reload()},3000);
        
     }
+    else {
+        setInterval(function() {  texte.innerHTML="DRAW , let's try again"}, 1000);
+        setTimeout( function() {location.reload()},3000);
+    }
     }
     win();
 }
