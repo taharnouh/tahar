@@ -94,8 +94,8 @@ function win(){
         setTimeout( function() {location.reload()},3000);
        
     }
-    else {
-        setInterval(function() {  texte.innerHTML="DRAW , let's try again"}, 1000);
+    else if (document.getElementById('box1').innerHTML!=''&&document.getElementById('box2').innerHTML!=''&&document.getElementById('box3').innerHTML!=''&&document.getElementById('box4').innerHTML!=''&&document.getElementById('box5').innerHTML!=''&&document.getElementById('box6').innerHTML!=''&&document.getElementById('box7').innerHTML!=''&&document.getElementById('box8').innerHTML!=''&&document.getElementById('box9').innerHTML!='') {
+        setInterval(function() {  texte.innerHTML="DRAW , let's try again"}, 400);
         setTimeout( function() {location.reload()},3000);
     }
     }
